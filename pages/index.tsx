@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-sky-500">
       olá mundo
     </div>
   )
