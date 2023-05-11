@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      olá mundo
+      olá mundo do teste
     </div>
   );
 }
