@@ -3,6 +3,7 @@ import icon1 from "../../assets/icone-carteira.webp"
 import icon2 from "../../assets/icone-home.webp"
 import icon3 from "../../assets/icone-local.webp"
 import icon4 from "../../assets/icone-estrela.webp"
+import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar"
 
 export const Section2 = () => {
   return (
@@ -32,7 +33,7 @@ export const Section2 = () => {
                     <p>Qualidade, certificados e esterilização seguindo normas de biossegurança.</p>
                 </div>
             </div>
-            <button className="bg-one hover:opacity-95 text-white font-bold py-4 px-4 rounded w-10/12 lg:w-4/12  m-auto">Agendar avaliação</button>
+            <AgendarConsulta/>
         </div>
     </div>
   )
