@@ -3,6 +3,7 @@ import icon1 from "../../assets/icone-carteira.webp"
 import icon2 from "../../assets/icone-home.webp"
 import icon3 from "../../assets/icone-local.webp"
 import icon4 from "../../assets/icone-estrela.webp"
+
 import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar"
 
 export const Section2 = () => {
