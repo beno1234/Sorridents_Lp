@@ -1,5 +1,6 @@
-import implante from "../../assets/implante.jpg"
 import Image from 'next/image'
+
+import sorridents from "../../assets/sorridents-clinicas.webp"
 
 export default function WhySorridents(){
     return(
@@ -11,9 +12,9 @@ export default function WhySorridents(){
                 <button className="py-5 px-10 mt-5 rounded shadow-2xl btn btn-hover bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">Agendar Avaliação</button>
             </div>
             <Image
-                src={implante}
+                src={sorridents}
                 alt="Landscape picture"
-                width={400}
+                width={500}
                 height={400}
                 className="rounded mb-5"
             />
