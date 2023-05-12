@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.color-one  {
+    color:#00A550
+}
+
+.color-two{
+    color: #EB1D25;
+}
+
+.color-three{
+    color: #2A348B;
+}
+
+.color-four{
+    color:#009FE3 ; 
+}
+
+.bg-one{
+    background-color:#00A550
+}
+
+.bg-two{
+    background-color: #EB1D25;
+}
+
+.bg-three{
+    background-color: #2A348B;
+}
+
+.bg-four{
+    background-color:#009FE3 ; 
+}
+
+.bg-section-1{
+    background: #009FE3 url(../assets/iStock-510634014.jpg) no-repeat  center center/ cover;
+    background-blend-mode: multiply;
+    opacity: 80% !important;
+    height: 100vh;  
+}
