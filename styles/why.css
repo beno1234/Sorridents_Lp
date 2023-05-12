@@ -1,17 +1,24 @@
 .animateGradientX {
     animation: gradient-x 5s ease infinite;
-    background: linear-gradient(-45deg, #037f03, #0e6dfb, #4e1fbe, #EF4444);
     background-size: 400% 400%;
     }
     
-    @keyframes gradient-x {
+@keyframes gradient-x {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 25%;
     }
+    25% {
+        background-position: 26% 50%;
+    };
     50% {
-        background-position: 100% 50%;
+        background-position: 51% 75%;
+    }
+    75% {
+        background-position: 76% 100%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0% 25%;
     }
-    }
+}
+
+

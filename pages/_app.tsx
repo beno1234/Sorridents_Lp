@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import '@/styles/why.css'
+import '@/styles/HoverButton.css'
 
 import type { AppProps } from 'next/app'
 
