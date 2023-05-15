@@ -1,6 +1,6 @@
 /*BUTTON HOVER*/
 .btn{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
@@ -13,9 +13,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn-hover {
-    background-color: #fff;
-}
+
 
 .btn::after {
     content: "";
@@ -40,7 +38,7 @@
 }
 
 .btn-animated {
-    animation: moveInBottom 5s ease-out;
+    animation: moveInBottom 1s ease-out;
     animation-fill-mode: backwards;
 }
 
