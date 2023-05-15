@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    overflow-x: hidden;
+}
+
 .color-one  {
     color:#00A550
 }

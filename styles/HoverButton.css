@@ -1,53 +1,39 @@
 /*BUTTON HOVER*/
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-hover {
-    background-color: #fff;
-}
-
 .btn::after {
     content: "";
     display: inline-block;
-    height: 100%;
-    width: 100%;
+    height: 64px;
+    width: 220.5px;
     border-radius: 0.25rem;
     position: absolute;
-    top: 0;
+    bottom: 0%;
     left: 0;
-    z-index: -1;
-    transition: all .6s;
+    z-index: 1;
+    transition: all 0.4s;
 }
-
-.btn-hover::after {
-    background-color: #5193df;
+.btn::after {
+    background-color: #3027848d  ;
+    visibility: hidden;
 }
-
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+    visibility: visible;
 }
-
 .btn-animated {
-    animation: moveInBottom 5s ease-out;
+    animation: moveInBottom 1s ease-out;
     animation-fill-mode: backwards;
 }
-
 @keyframes moveInBottom {
     0% {
         opacity: 0;
         transform: translateY(30px);
-    }
-
+   }
     100% {
         opacity: 1;
         transform: translateY(0px);
-    }
+   }
 }
