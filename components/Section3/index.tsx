@@ -36,7 +36,7 @@ export const Section3 = () => {
 
   return (
     <div className="w-full mt-10 flex flex-col justify-center  gap-14 bg-three p-20">
-      <h2 className="font-sans text-white font-bold text-3xl lg:text-5xl text-center font-bold">Conheça a nossa estrutura</h2>
+      <h2 className="font-sans text-white text-3xl lg:text-5xl text-center font-bold">Conheça a nossa estrutura</h2>
       <Slider {...settings}>
         <div>
           <Image src={image1} alt="Imagem 1" width={800} height={600} />
