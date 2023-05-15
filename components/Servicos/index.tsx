@@ -12,13 +12,13 @@ import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar";
 
 export default function Services() {
   return (
-    <section className="w-full flex flex-col-reverse justify-around py-20  px-5 lg:px-[15%] lg:flex-row">
-      <div className="flex flex-wrap justify-around gap-10">
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+    <section className="w-full  justify-around py-20  px-5 lg:px-[15%] lg:flex-row">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={estetica}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
@@ -29,11 +29,11 @@ export default function Services() {
           </p>
         </div>
 
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={orto}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
@@ -44,11 +44,11 @@ export default function Services() {
           </p>
         </div>
 
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={geral}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
@@ -59,11 +59,11 @@ export default function Services() {
           </p>
         </div>
 
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={implante}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
@@ -74,37 +74,39 @@ export default function Services() {
           </p>
         </div>
 
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={outros}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
           <h3 className="font-semibold text-[28px] mb-4">Outros Tratamentos</h3>
           <p>
             Encontre aqui os nossos melhores tratamentos odontológicos para você
-            sorrir sem dor e sem receio{" "}
+            sorrir sem dor e sem receio
           </p>
         </div>
 
-        <div className=" text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 max-w-[95%] lg:max-w-[280px] rounded backdrop-blur-sm">
+        <div className="text-white bg-[#2f2f2f39] flex flex-col items-center p-5 shadow-2xl to-blue-500 rounded backdrop-blur-sm">
           <Image
             src={odontopediatria}
             alt=""
-            width={280}
+            width={580}
             height={300}
             className="rounded mb-5"
           />
           <h3 className="font-semibold text-[28px] mb-4">Odontopediatria</h3>
           <p>
             Tratamentos específicos realizados por dentistas pediatras da melhor
-            qualidade para garantir a saúde bucal do seu filho{" "}
+            qualidade para garantir a saúde bucal do seu filho
           </p>
         </div>
+      </div>
 
-        <div className="lg:w-[95%] p-5 shadow-2xl flex flex-col items-center lg:flex-row rounded mt-8 bg-[#2f2f2f39]">
+      <div className=" text-center mt-24">
+        <div className="lg:w-[100%] p-5 shadow-2xl flex flex-col items-center lg:flex-row rounded mt-8 bg-[#2f2f2f39]">
           <Image src={prevencao} alt="icone prevenção" className="w-[150px]" />
           <div className="flex flex-col text-white">
             <h2 className="text-[32px] text-semibold mb-3 text-center">
@@ -117,7 +119,6 @@ export default function Services() {
           </div>
         </div>
         <AgendarConsulta />
-        
       </div>
     </section>
   );

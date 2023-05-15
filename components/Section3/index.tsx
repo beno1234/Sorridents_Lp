@@ -8,7 +8,6 @@ import image2 from "../../assets/I8A2058-copiar.jpg";
 import image3 from "../../assets/consultorio.jpeg";
 import image4 from "../../assets/I8A2050-copiar.jpg";
 import image5 from "../../assets/parede.jpeg";
-
 import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar";
 
 export const Section3 = () => {
@@ -35,9 +34,11 @@ export const Section3 = () => {
   };
 
   return (
-    <div className="w-full mt-10 flex flex-col justify-center  gap-14 bg-three p-20">
-      <h2 className="font-sans text-white text-3xl lg:text-5xl text-center font-bold">Conheça a nossa estrutura</h2>
-      <Slider {...settings}>
+    <div className="w-full mt-10 flex flex-col justify-center gap-14 bg-[#E6D542] p-20">
+      <h2 className="font-sans text-white text-3xl lg:text-5xl text-center font-bold">
+        Conheça a nossa estrutura
+      </h2>
+      <Slider {...settings} className="slick-slider" dotsClass="slick-dots">
         <div>
           <Image src={image1} alt="Imagem 1" width={800} height={600} />
         </div>
@@ -54,7 +55,6 @@ export const Section3 = () => {
           <Image src={image5} alt="Imagem 1" width={800} height={600} />
         </div>
       </Slider>
-      <AgendarConsulta />
-  </div>
+    </div>
   );
 };

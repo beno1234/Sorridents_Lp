@@ -1,0 +1,4 @@
+/* No seu arquivo CSS ou diretamente no código, usando o tailwindcss */
+.slick-slider .slick-dots li button:before {
+  color: white;
+}
