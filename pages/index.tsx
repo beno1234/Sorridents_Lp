@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Section1 />
       <Section2 />
-      <div className="bg-gradient-to-r from-cyan-500 to-blue-700 animateGradientX">
+      <div className="bg-gradient-to-r from-[#302784] to-[#009fe3] animateGradientX">
         <WhySorridents />
         <Services />
       </div>

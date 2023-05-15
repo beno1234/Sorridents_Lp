@@ -23,6 +23,7 @@ export const Section1 = () => {
             aprovados.
           </p>
           <AgendarConsulta />
+          
         </div>
       </div>
     </div>
