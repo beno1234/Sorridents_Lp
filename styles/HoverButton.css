@@ -1,7 +1,5 @@
 /*BUTTON HOVER*/
-.btn{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
 .btn::after {
     content: "";
     display: inline-block;
@@ -9,19 +7,23 @@
     width: 220.5px;
     border-radius: 0.25rem;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: -1;
     transition: all 0.4s;
-}
-.btn::after {
-    background-color: #3027848d  ;
-    visibility: hidden;
+    background-color: #ff0808;
 }
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-    visibility: visible;
+}
+.btn{
+    height: 64px;
+    width: 220.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ff0808;
+    position: relative;
+    z-index: 1;
 }
 .btn-animated {
     animation: moveInBottom 1s ease-out;

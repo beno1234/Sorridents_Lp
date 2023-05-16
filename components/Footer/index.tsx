@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="bg-[#042836]">
+    <div className="bg-[#2a8f2b]">
       <div className="max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="flex flex-col lg:flex-row gap-y-12 lg:gap-y-0 lg:gap-x-8 justify-between items-center">
           <div>
@@ -33,7 +33,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex items-center justify-center mt-8 lg:mt-0">
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center shadow-2xl">
               <FaWhatsapp className="mr-2" />
               Entre em contato conosco
             </button>
