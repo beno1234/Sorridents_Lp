@@ -4,7 +4,7 @@ import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar";
 
 export default function WhySorridents() {
   return (
-    <section className="w-full flex flex-col-reverse justify-around py-10 px-2 lg:px-10 lg:flex-row">
+    <section className="w-full flex flex-col-reverse justify-around py-10 px-5 lg:px-10 lg:flex-row">
       <div className="w-full flex flex-col items-center lg:w-1/2 lg:items-start text-white">
         <h2 className="text-2xl lg:text-4xl font-bold">Porque a Sorridents?</h2>
         <p className="my-3 text-sm lg:text-base font-semibold">
