@@ -36,7 +36,7 @@ export const Section2 = () => {
 
   return (
     <div className="bg-white flex flex-col items-center xl:pt-10 xl:items-end xl:flex-row xl:justify-between lg:ps-10">
-      <div className="flex flex-1 p-10 flex-col gap-10 items-center justify-center w-full xl:w-6/12 text-center ">
+      <div className="flex flex-1 py-10 px-5 flex-col gap-10 items-center justify-center w-full xl:w-6/12 text-center ">
         <h1 className="font-sans color-three font-bold text-3xl lg:text-5xl text-center">
           Clínicos gerais <br /> atendendo em todas as especialidades
         </h1>
