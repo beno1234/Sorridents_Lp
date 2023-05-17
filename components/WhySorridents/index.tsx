@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sorridents from "../../assets/sorridents-clinicas.webp";
+import sorridents from "../../assets/Paciente_LP.png";
 import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar";
 
 export default function WhySorridents() {
