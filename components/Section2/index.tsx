@@ -7,6 +7,7 @@ import icon1 from "../../assets/icone-carteira.webp";
 import icon2 from "../../assets/icone-home.webp";
 import icon3 from "../../assets/icone-local.webp";
 import icon4 from "../../assets/icone-estrela.webp";
+import Dentista from "../../assets/dentista_LP.png";
 
 import AgendarConsulta from "../ButtonAgendarConsulta/ButtonAgendar";
 
@@ -34,15 +35,15 @@ export const Section2 = () => {
   };
 
   return (
-    <div className="bg-white py-14 flex items-center justify-center">
-      <div className="flex flex-col gap-10 items-center justify-center w-10/12 lg:w-6/12 text-center">
-        <h1 className="font-sans color-three font-bold text-3xl lg:text-5xl">
-          Clínicos gerais atendendo em todas as especialidades
+    <div className="bg-white flex flex-col items-center xl:pt-10 xl:items-end xl:flex-row xl:justify-between lg:ps-10">
+      <div className="flex flex-1 p-10 flex-col gap-10 items-center justify-center w-full xl:w-6/12 text-center ">
+        <h1 className="font-sans color-three font-bold text-3xl lg:text-5xl text-center">
+          Clínicos gerais <br /> atendendo em todas as especialidades
         </h1>
         <p className="text-base lg:text-2xl">
           A mais premiada rede de clínicas odontológicas da América Latina!
         </p>
-        <div className="flex flex-col gap-10 lg:gap-10 lg:flex-row lg:justify-between w-full">
+        <div className="flex flex-col gap-10 lg:gap-10 lg:flex-row lg:justify-between w-10/12">
           <div className="flex flex-col items-center justify-center gap-3 flex-1 bg-slate-100 rounded-lg p-4 ">
             <Image src={icon1} alt="" width={50} />
             <h1 className="text-xl color-three font-bold">Acesso</h1>
@@ -67,7 +68,12 @@ export const Section2 = () => {
             </p>
           </div>
         </div>
-        <AgendarConsulta />
+        <div className="m-auto">
+          <AgendarConsulta />
+        </div>
+      </div>
+      <div className="flex justify-items-end items-end">
+        <Image src={Dentista} alt="" className="" />
       </div>
     </div>
   );
